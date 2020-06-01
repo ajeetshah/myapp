@@ -1,14 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import Application from "./Post";
+import App from "./App";
 
-var destination = document.querySelector("#container");
-
-ReactDOM.render(
-    <div>
-        <Application/>
-    </div>,
-    destination
-
-)
+ReactDOM.render(<App />, document.getElementById("container"));

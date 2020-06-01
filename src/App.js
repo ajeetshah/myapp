@@ -1,9 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import Card from "./Card";
 import "./index.css";
 
-class Application extends React.Component {
+class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -114,6 +113,4 @@ class Application extends React.Component {
   }
 }
 
-ReactDOM.render(<Application />, document.getElementById("container"));
-
-export default Application;
+export default App;
